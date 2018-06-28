@@ -5,7 +5,7 @@ class School
     @roster=[]
   end
 
-  def add_student
+  def add_student(student_name)
     roster.select do |student|
       
       end
