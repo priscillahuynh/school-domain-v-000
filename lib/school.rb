@@ -15,6 +15,8 @@ class School
   end
 
   def sort
-    @roster[grade].select {|grade,student|}
+    @roster[grade].select do |grade,student|
+      if @roster[grade] == grade
+    end
   end
 end
