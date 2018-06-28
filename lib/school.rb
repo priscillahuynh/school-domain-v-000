@@ -6,14 +6,8 @@ class School
   end
 
   def add_student(student_name,grade)
-    @roster[grade]=[student_name]
-    #if roster has key of grade 9
-    if @roster[grade]=grade
-    #then add student to grade
-    @roster[grade]<<student_name
-    #if not, create new key(grade)
-    else
-    @roster[grade]=[]
+    if @roster[grade] == true
+      @roster[grade]<<student_name
     #then add student
   end
   end
