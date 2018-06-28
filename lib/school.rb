@@ -14,9 +14,10 @@ class School
     end
   end
 
-  def grade(grade)
+  def grade(level)
     @roster.select do |grade, student|
-      if @roster[grade] == "#{grade}"
+      if grade == level
+        return y 
       end
     end
   end
