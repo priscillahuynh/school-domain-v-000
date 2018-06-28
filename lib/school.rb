@@ -6,8 +6,6 @@ class School
   end
 
   def add_student(student_name,grade)
-    roster.select do ||
+    student_name[grade]
 
-      end
-    end
-end
+  end
