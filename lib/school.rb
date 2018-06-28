@@ -16,7 +16,7 @@ class School
 
   def sort
     @roster.select do |grade|
-      if @roster[grade] == grade
+      if @roster[grade]<< student
       end
     end
   end
