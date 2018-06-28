@@ -16,4 +16,5 @@ class School
     @roster[grade]=[]
     #then add student
   end
+  end
 end
