@@ -10,9 +10,10 @@ class School
     #if roster has key of grade 9
     if @roster[grade]=grade
     #then add student to grade
-    @roster[grade]<<student_name
+    @roster[:grade]<<student_name
     #if not, create new key(grade)
-
+    else
+    @roster[:grade]=[]
     #then add student
   end
 end
