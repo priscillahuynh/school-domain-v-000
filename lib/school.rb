@@ -6,6 +6,9 @@ class School
   end
 
   def add_student
-    
+    roster.select do |student|
+      if !(@roster.include?(student))
+        @roster<<student
+    end
   end
 end
