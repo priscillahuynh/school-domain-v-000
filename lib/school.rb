@@ -5,4 +5,5 @@ end
 
 def name
   @name
-enacted
+end 
+end
