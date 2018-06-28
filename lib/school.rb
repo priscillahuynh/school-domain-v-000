@@ -4,9 +4,15 @@ class School
     @name=name
     @roster={}
   end
-
-  def add_student(student_name,grade)
-    @roster[grade]=[student_name]
-    
+# 
+#   def add_student(student_name,grade)
+#     @roster[grade]=[student_name]
+#   end
+# end
+def add_student(student_name, grade)
+    if @roster[grade]
+      @roster[grade] << student_name
+    else
+      @roster[grade] = [student_name]
+    end
   end
-end
