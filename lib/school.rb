@@ -10,3 +10,4 @@ class School
     @roster[:grade]<<[]
     @roster[:grade]<<[student_name]
   end
+end
