@@ -14,7 +14,7 @@ class School
     end
   end
 
-  def sort
+  def grade
     @roster.select do |grade|
       if @roster[grade]<< student
       end
