@@ -17,7 +17,7 @@ class School
   def grade(level)
     @roster.select do |grade, student|
       if grade == level
-        return y 
+        return y
         end
       end
     end
