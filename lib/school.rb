@@ -11,7 +11,6 @@ class School
     else
       @roster[grade] = []
       @roster[grade]<<student_name
-    #then add student
-  end
+    end
   end
 end
