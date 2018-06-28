@@ -18,7 +18,6 @@ class School
     @roster.select do |grade, student|
       if grade == level
         return y
-        end
       end
     end
   end
